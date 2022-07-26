@@ -1,9 +1,9 @@
-div{
+div p {
     border: red 3px solid;
-    margin: 10 px;
+    margin: 1 px;
     padding: 10px;
 }
 
-div + p {
+div ~ p {
     color: red;
 }
