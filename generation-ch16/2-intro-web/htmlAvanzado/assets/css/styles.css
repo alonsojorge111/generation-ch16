@@ -1,0 +1,37 @@
+ul {
+    list-style: square;
+}
+
+ol {
+    list-style:decimal ;
+}
+
+h1 {
+    background-color: blueviolet;
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+div {
+    background-color: rgb(255, 0, 149);
+    width: fit-content;
+    height: fit-content;
+    font-style: italic;
+    
+}
+
+a {
+    display: inline-block;
+    background-color: aqua;
+    width: 100 px;
+    height: 100px;
+    border: 1px solid; color: red;
+}
+
+span {
+    font-size: large;
+    font-family: cursive;
+    font-weight: 700;
+    border: 1px dashed blue;
+}
