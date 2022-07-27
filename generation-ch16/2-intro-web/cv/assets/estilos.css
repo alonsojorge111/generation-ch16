@@ -3,7 +3,7 @@ header{
     width: auto;
     height: 500px;
 }
-#img1{
+#img1_foto{
     display: block;
     position: absolute;
     top: 30px;
@@ -15,30 +15,51 @@ header{
     box-shadow: 0px 0px 15px 15px rgb(76, 83, 109);
     
 }
-#img2{
+#img2_facebook{
     width: 80px;
     position: absolute;
     top: 410px;
     left: 40px;
     
 }
-#img3{
+
+#img2_facebook:hover{
+    transform: scale(1.2);
+}
+
+#img3_instagram{ 
     width: 76px;
     position: absolute;
     top: 413px;
     left: 150px;
 }
-#img4{
+
+#img3_instagram:hover{
+    transform: scale(1.2);
+}
+
+
+#img4_github{
     width: 100px;
     position: absolute;
     top: 420px;
     left: 240px;
 }
-#img5{
+
+#img4_github:hover{
+    transform: scale(1.2);
+}
+
+
+#img5_linkedin{
     width: 60px;
     position: absolute;
     top: 420px;
     left: 360px;
+}
+
+#img5_linkedin:hover{
+    transform: scale(1.2);
 }
 
 #div1{
