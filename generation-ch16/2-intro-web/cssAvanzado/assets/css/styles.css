@@ -1,0 +1,15 @@
+/* MODIFICACIÓN DE FUENTES.IMPORTAR FUENTES: SI SE IMPORTAN DOS TENER CUIDADO AL MOMENTO DE HACER EL LINK  */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&display=swap');
+
+h1{
+    font-family: 'Open Sans', sans-serif;;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+/* MODELO DE CAGA O BOX MODEL */
+

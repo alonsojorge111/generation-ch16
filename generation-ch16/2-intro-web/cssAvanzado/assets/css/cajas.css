@@ -1,0 +1,34 @@
+.cuadro {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  padding: 20px; /* ESPACIADO INTERNO. PUEDO COLOCAR LOS PX DE CADA LADO SOLO DEJANDO ESPACIO */
+}
+
+.el-1 { /* POSICIÓN FIXED: SE MUEVE CON RESPECTO A LA NAVEGACION */
+  background-color: blue;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.el-2 { /* POSICION ABSOLUTA. CAMBIO CON RESPECTO A LA PANTALLA */
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.el-3 { /* POSICIÓN RELATIVA. CAMBIO CON RESPECTO A SU ORIGEB */
+  background-color: green;
+  position: relative;
+  left: 100px;
+}
+.el-4 {
+  background-color: dark;
+  position: static;
+}
+.el-5 { /* POSICIÓN STICKY. SUBE Y CUANDO LLEGA AL 0 SE QUEDA PEGADO */
+  background-color: pink;
+  position: sticky;
+  top: 0;
+}
