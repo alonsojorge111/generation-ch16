@@ -1,0 +1,56 @@
+.padre{
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    height: 600px;
+    align-items: center;
+}
+
+
+
+.cuadro{
+
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    padding: 50px 40px 30px 20px;
+    margin: 20px 40px;
+    border: 10px solid yellow;
+    border-radius: 10px 20px 30px 40px;
+
+   
+  }
+  
+  .el-1 { 
+    background-color: blue;
+    flex-grow: 10;
+    
+  }
+  .el-2 { 
+    background-color: red;
+    flex-grow: 1;
+    
+  }
+  .el-3 { 
+    background-color: green;
+    flex-grow: 10;
+    
+  }
+  
+  .contenedor{
+    height: 200px;
+    background-color: blue;
+
+    max-width:1200px;
+    margin: 0 auto;
+
+  }
+
+  .fila{
+    display: flex;
+  }
+
+  .columna{
+    flex: 1;
+  }
