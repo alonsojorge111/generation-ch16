@@ -21,3 +21,17 @@ do{
     console.log("Do...While: " + numero);
     numero++;
 }while(numero < 5 );
+
+
+/* FOR ANIDADO */
+
+for(let i =0; i < 5; i++){
+    console.log("for principal" + i);
+    for(let j = 0; j < i; j++){
+        console.log("for interno" + j);
+    }
+}
+
+var codPostal = 28001;
+14002 = codPostal;
+console.log(codPostal);
