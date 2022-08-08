@@ -1,0 +1,8 @@
+.elemento{
+      background-color: aqua;
+      color: blue;
+}
+
+body{
+    background-color: red;
+}
