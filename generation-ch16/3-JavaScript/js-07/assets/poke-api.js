@@ -2,6 +2,7 @@
 const urlPokemon = "https://pokeapi.co/api/v2/pokemon/pikachu"
 
 /* ELEMENTOS DEL DOM */
+const listaHabilidades = document.getElementById("lista-habilidades");
 
 
 
